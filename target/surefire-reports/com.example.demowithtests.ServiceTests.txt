@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: com.example.demowithtests.ServiceTests
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.027 s <<< FAILURE! - in com.example.demowithtests.ServiceTests
+should_throw_exception_when_employee_doesnt_exist  Time elapsed: 0.002 s  <<< ERROR!
+java.lang.Exception: Unexpected exception, expected<javax.persistence.EntityNotFoundException> but was<com.example.demowithtests.util.ResourceNotFoundException>
+	at com.example.demowithtests.ServiceTests.should_throw_exception_when_employee_doesnt_exist(ServiceTests.java:65)
+
